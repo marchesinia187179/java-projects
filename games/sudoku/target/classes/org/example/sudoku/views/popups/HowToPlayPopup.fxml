@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="420.0" styleClass="anchorPane" stylesheets="@../styles/backgroundStyle.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.sudoku.controllers.popups.HowToPlayController">
+   <children>
+      <VBox alignment="CENTER" spacing="10.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <Label text="RULES" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="48.0" />
+               </font>
+            </Label>
+            <VBox alignment="CENTER">
+               <children>
+                  <Label text="Rule 1" textAlignment="CENTER" underline="true" wrapText="true">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Label>
+                  <Label prefWidth="400.0" text="Each row must contain the numbers from 1 to 9, without repetitions!" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER">
+               <children>
+                  <Label text="Rule 2" textAlignment="CENTER" underline="true" wrapText="true">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Label>
+                  <Label prefWidth="400.0" text="Each column must contain the numbers from 1 to 9, without repetitions!" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER">
+               <children>
+                  <Label text="Rule 3" textAlignment="CENTER" underline="true" wrapText="true">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Label>
+                  <Label text="The digits can only occur once per block (nonet)!" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Label>
+                  <Label prefWidth="300.0" text="A regular 9 x 9 grid is divided into 9 smaller blocks of 3 x 3, also known as nonets. The numbers from 1 to 9 can only occur once per nonet." textAlignment="CENTER" wrapText="true">
+                     <padding>
+                        <Insets top="5.0" />
+                     </padding>
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <Separator maxWidth="300.0" />
+            <Label text="additional information" textAlignment="CENTER" underline="true" wrapText="true">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="The player can make a maximum of 3 mistakes." textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

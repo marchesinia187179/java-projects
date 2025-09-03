@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="490.0" styleClass="anchorPane" stylesheets="@../styles/backgroundStyle.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.sudoku.controllers.mainpages.DifficultyController">
+   <children>
+      <VBox alignment="CENTER" layoutX="243.0" layoutY="132.0" spacing="10.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <Label text="DIFFICULTY">
+               <font>
+                  <Font name="System Bold" size="48.0" />
+               </font>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#handleEasyMode" prefWidth="120.0" styleClass="button-generic" stylesheets="@../styles/buttonStyle.css" text="Easy">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#handleMediumMode" prefWidth="120.0" styleClass="button-generic" stylesheets="@../styles/buttonStyle.css" text="Medium">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#handleHardMode" prefWidth="120.0" styleClass="button-generic" stylesheets="@../styles/buttonStyle.css" text="Hard">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#handleImpossibleMode" prefWidth="120.0" styleClass="button-generic" stylesheets="@../styles/buttonStyle.css" text="Impossible">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+         </children>
+      </VBox>
+      <Button mnemonicParsing="false" onAction="#handlePreviousPage" styleClass="button-back" stylesheets="@../styles/buttonStyle.css" text="←" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

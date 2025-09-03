@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" styleClass="anchorPane" stylesheets="@../styles/backgroundStyle.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.sudoku.controllers.popups.NewGameController">
+   <children>
+      <Label alignment="CENTER" prefHeight="200.0" prefWidth="300.0" text="Do you want to start a new game?" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <ButtonBar buttonMinWidth="50.0" layoutX="194.0" layoutY="132.0" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0">
+        <buttons>
+            <Button mnemonicParsing="false" onAction="#handleNewGameCancelled" styleClass="button-generic" stylesheets="@../styles/buttonStyle.css" text="no">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#handleNewGameConfirmed" styleClass="button-generic" stylesheets="@../styles/buttonStyle.css" text="yes">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+        </buttons>
+      </ButtonBar>
+   </children>
+</AnchorPane>

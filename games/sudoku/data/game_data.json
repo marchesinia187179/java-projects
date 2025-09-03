@@ -1,0 +1,600 @@
+{
+  "difficulty": {
+    "name": "Medium",
+    "value": 53
+  },
+  "field": [
+    [
+      {
+        "notes": [],
+        "x": 0,
+        "y": 0,
+        "changeable": false,
+        "value": "7"
+      },
+      {
+        "notes": [],
+        "x": 0,
+        "y": 1,
+        "changeable": false,
+        "value": "3"
+      },
+      {
+        "notes": [],
+        "x": 0,
+        "y": 2,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 0,
+        "y": 3,
+        "changeable": false,
+        "value": "2"
+      },
+      {
+        "notes": [],
+        "x": 0,
+        "y": 4,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 0,
+        "y": 5,
+        "changeable": false,
+        "value": "9"
+      },
+      {
+        "notes": [],
+        "x": 0,
+        "y": 6,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 0,
+        "y": 7,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 0,
+        "y": 8,
+        "changeable": true,
+        "value": ""
+      }
+    ],
+    [
+      {
+        "notes": [],
+        "x": 1,
+        "y": 0,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 1,
+        "y": 1,
+        "changeable": false,
+        "value": "1"
+      },
+      {
+        "notes": [],
+        "x": 1,
+        "y": 2,
+        "changeable": false,
+        "value": "5"
+      },
+      {
+        "notes": [],
+        "x": 1,
+        "y": 3,
+        "changeable": false,
+        "value": "6"
+      },
+      {
+        "notes": [],
+        "x": 1,
+        "y": 4,
+        "changeable": false,
+        "value": "7"
+      },
+      {
+        "notes": [],
+        "x": 1,
+        "y": 5,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 1,
+        "y": 6,
+        "changeable": false,
+        "value": "2"
+      },
+      {
+        "notes": [],
+        "x": 1,
+        "y": 7,
+        "changeable": false,
+        "value": "3"
+      },
+      {
+        "notes": [],
+        "x": 1,
+        "y": 8,
+        "changeable": false,
+        "value": "9"
+      }
+    ],
+    [
+      {
+        "notes": [],
+        "x": 2,
+        "y": 0,
+        "changeable": false,
+        "value": "8"
+      },
+      {
+        "notes": [],
+        "x": 2,
+        "y": 1,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 2,
+        "y": 2,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 2,
+        "y": 3,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 2,
+        "y": 4,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 2,
+        "y": 5,
+        "changeable": false,
+        "value": "3"
+      },
+      {
+        "notes": [],
+        "x": 2,
+        "y": 6,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 2,
+        "y": 7,
+        "changeable": false,
+        "value": "1"
+      },
+      {
+        "notes": [],
+        "x": 2,
+        "y": 8,
+        "changeable": true,
+        "value": ""
+      }
+    ],
+    [
+      {
+        "notes": [],
+        "x": 3,
+        "y": 0,
+        "changeable": false,
+        "value": "5"
+      },
+      {
+        "notes": [],
+        "x": 3,
+        "y": 1,
+        "changeable": false,
+        "value": "4"
+      },
+      {
+        "notes": [],
+        "x": 3,
+        "y": 2,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 3,
+        "y": 3,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 3,
+        "y": 4,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 3,
+        "y": 5,
+        "changeable": false,
+        "value": "6"
+      },
+      {
+        "notes": [],
+        "x": 3,
+        "y": 6,
+        "changeable": false,
+        "value": "1"
+      },
+      {
+        "notes": [],
+        "x": 3,
+        "y": 7,
+        "changeable": false,
+        "value": "2"
+      },
+      {
+        "notes": [],
+        "x": 3,
+        "y": 8,
+        "changeable": true,
+        "value": ""
+      }
+    ],
+    [
+      {
+        "notes": [],
+        "x": 4,
+        "y": 0,
+        "changeable": false,
+        "value": "6"
+      },
+      {
+        "notes": [],
+        "x": 4,
+        "y": 1,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 4,
+        "y": 2,
+        "changeable": false,
+        "value": "7"
+      },
+      {
+        "notes": [],
+        "x": 4,
+        "y": 3,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 4,
+        "y": 4,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 4,
+        "y": 5,
+        "changeable": false,
+        "value": "1"
+      },
+      {
+        "notes": [],
+        "x": 4,
+        "y": 6,
+        "changeable": false,
+        "value": "3"
+      },
+      {
+        "notes": [],
+        "x": 4,
+        "y": 7,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 4,
+        "y": 8,
+        "changeable": true,
+        "value": ""
+      }
+    ],
+    [
+      {
+        "notes": [],
+        "x": 5,
+        "y": 0,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 5,
+        "y": 1,
+        "changeable": false,
+        "value": "8"
+      },
+      {
+        "notes": [],
+        "x": 5,
+        "y": 2,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 5,
+        "y": 3,
+        "changeable": false,
+        "value": "7"
+      },
+      {
+        "notes": [],
+        "x": 5,
+        "y": 4,
+        "changeable": false,
+        "value": "3"
+      },
+      {
+        "notes": [],
+        "x": 5,
+        "y": 5,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 5,
+        "y": 6,
+        "changeable": false,
+        "value": "5"
+      },
+      {
+        "notes": [],
+        "x": 5,
+        "y": 7,
+        "changeable": false,
+        "value": "6"
+      },
+      {
+        "notes": [],
+        "x": 5,
+        "y": 8,
+        "changeable": true,
+        "value": ""
+      }
+    ],
+    [
+      {
+        "notes": [],
+        "x": 6,
+        "y": 0,
+        "changeable": false,
+        "value": "3"
+      },
+      {
+        "notes": [],
+        "x": 6,
+        "y": 1,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 6,
+        "y": 2,
+        "changeable": false,
+        "value": "8"
+      },
+      {
+        "notes": [],
+        "x": 6,
+        "y": 3,
+        "changeable": false,
+        "value": "1"
+      },
+      {
+        "notes": [],
+        "x": 6,
+        "y": 4,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 6,
+        "y": 5,
+        "changeable": false,
+        "value": "4"
+      },
+      {
+        "notes": [],
+        "x": 6,
+        "y": 6,
+        "changeable": false,
+        "value": "6"
+      },
+      {
+        "notes": [],
+        "x": 6,
+        "y": 7,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 6,
+        "y": 8,
+        "changeable": false,
+        "value": "2"
+      }
+    ],
+    [
+      {
+        "notes": [],
+        "x": 7,
+        "y": 0,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 7,
+        "y": 1,
+        "changeable": false,
+        "value": "7"
+      },
+      {
+        "notes": [],
+        "x": 7,
+        "y": 2,
+        "changeable": false,
+        "value": "1"
+      },
+      {
+        "notes": [],
+        "x": 7,
+        "y": 3,
+        "changeable": false,
+        "value": "8"
+      },
+      {
+        "notes": [],
+        "x": 7,
+        "y": 4,
+        "changeable": false,
+        "value": "6"
+      },
+      {
+        "notes": [],
+        "x": 7,
+        "y": 5,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 7,
+        "y": 6,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 7,
+        "y": 7,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 7,
+        "y": 8,
+        "changeable": true,
+        "value": ""
+      }
+    ],
+    [
+      {
+        "notes": [],
+        "x": 8,
+        "y": 0,
+        "changeable": false,
+        "value": "9"
+      },
+      {
+        "notes": [],
+        "x": 8,
+        "y": 1,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 8,
+        "y": 2,
+        "changeable": false,
+        "value": "4"
+      },
+      {
+        "notes": [],
+        "x": 8,
+        "y": 3,
+        "changeable": false,
+        "value": "3"
+      },
+      {
+        "notes": [],
+        "x": 8,
+        "y": 4,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 8,
+        "y": 5,
+        "changeable": false,
+        "value": "7"
+      },
+      {
+        "notes": [],
+        "x": 8,
+        "y": 6,
+        "changeable": true,
+        "value": ""
+      },
+      {
+        "notes": [],
+        "x": 8,
+        "y": 7,
+        "changeable": false,
+        "value": "5"
+      },
+      {
+        "notes": [],
+        "x": 8,
+        "y": 8,
+        "changeable": false,
+        "value": "1"
+      }
+    ]
+  ],
+  "mistakes": 0,
+  "time": {
+    "seconds": 4,
+    "minutes": 0,
+    "pause": false
+  },
+  "status": "In progress..."
+}

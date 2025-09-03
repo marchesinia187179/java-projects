@@ -1,0 +1,81 @@
+.button-generic {
+    -fx-border-color: gray;
+    -fx-border-width: 0.5;
+    -fx-background-color: white;
+    -fx-border-radius: 100;
+    -fx-background-radius: 100;
+
+}
+
+.button-generic:hover {
+    -fx-translate-y: -5px;
+    -fx-translate-x: -3px;
+    -fx-effect: DropShadow(gaussian, gray, 0, 0, 3, 5);
+}
+
+.button-generic:armed {
+    -fx-translate-y: 0px;
+    -fx-translate-x: 0px;
+    -fx-effect: DropShadow(gaussian, gray, 0, 0, 0, 0);
+    -fx-background-color: rgb(248,248,248);
+}
+
+.toggleButton-generic {
+    -fx-border-color: gray;
+    -fx-border-width: 0.5;
+    -fx-background-color: white;
+    -fx-border-radius: 100;
+    -fx-background-radius: 100;
+
+}
+
+.toggleButton-generic:hover {
+    -fx-background-color: rgb(248,248,248);
+}
+
+.toggleButton-generic:selected {
+    -fx-text-fill: white;
+    -fx-background-color: rgb(0,0,0);
+}
+
+.button-number {
+    -fx-font-size: 18px;
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+}
+
+.button-number:hover {
+    -fx-font-weight: bold;
+}
+
+.button-number:armed {
+    -fx-font-weight: normal;
+}
+
+.button-back {
+    -fx-font-size: 18px;
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+}
+
+.button-back:hover {
+    -fx-font-weight: bold;
+}
+
+.button-back:armed {
+    -fx-font-weight: normal;
+}
+
+.button-cell {
+    -fx-border-color: gray;
+    -fx-border-width: 0.5;
+    -fx-background-color: white;
+}
+
+.button-cell:hover {
+    -fx-background-color: rgb(248,248,248);
+}
+
+.button-cell:armed {
+    -fx-border-width: 1;
+}
