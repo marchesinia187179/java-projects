@@ -17,6 +17,7 @@ public class SortingStrategyMain {
         SorterManager sorterManager = new SorterManager(new LinkedList<>());
         List<Integer> listForBubbleSort = createList(new LinkedList<>(), 10, 0, 100);
         List<Integer> listForSelectionSort = createList(new LinkedList<>(), 10, 0, 100);
+        List<Integer> listForInsertionSort = createList(new LinkedList<>(), 10, 0, 100);
 
         // BubbleSort test
         sorterManager.setIntegers(listForBubbleSort);
@@ -27,5 +28,11 @@ public class SortingStrategyMain {
         // SelectionSort test
         sorterManager.setIntegers(listForSelectionSort);
         sorterManager.sort(new SelectionSort());
+        
+        System.out.println("---");
+
+        // Insertion test
+        sorterManager.setIntegers(listForInsertionSort);
+        sorterManager.sort(new InsertionSort());
     }
 }
